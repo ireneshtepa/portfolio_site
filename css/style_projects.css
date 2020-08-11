@@ -1,0 +1,60 @@
+.imgproj {
+    opacity: 60%;
+    width: 35%;
+}
+
+.imgproj:hover {
+    opacity: 100%;
+}
+
+.smlink {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    margin-bottom: 20px;
+    text-align: center;
+   }
+
+   img.footer {
+       width: 2%;
+       margin: 3px;
+   }
+
+   img.footer:hover {
+       opacity: 70%;
+   }
+
+   .row {
+       margin: 5px;
+       text-align: center;
+   }
+
+   .container {
+       margin-top: 50px;
+   }
+
+   /* .col {
+       margin: 10px;
+   } */
+
+   h1 {
+    /* font-weight: bold; */
+    font-size: 40px;
+    text-align: center;
+    margin: 30px;
+}
+
+   h2 {
+    font-size: 20px;
+    text-align: center;
+}
+
+#logo {
+    margin-top: 40px;
+    margin-left: 50px;
+    margin-bottom: 40px;
+}
+
+img.logo {
+    width: 35%;
+}
