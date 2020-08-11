@@ -1,0 +1,65 @@
+/* setting background image */
+body {
+    background-image: url("../img/neuron2.jpg");
+    /* background-color: #f1e9e9; */
+    /* background-size: auto; */
+   }
+
+   #rectangle {
+       background-color: #FDFFF5;
+       padding: 70px;
+       width: 750px;
+       height: 400px;
+       position: fixed;
+       top: 50%;
+       left: 50%;
+       transform: translate(-50%, -50%);
+   }
+
+   h1 {
+       font-weight: bold;
+       font-size: 50px;
+       text-align: center;
+   }
+
+   h2 {
+       font-size: 20px;
+       text-align: center;
+   }
+
+   h3 {
+       font-size: 30px;
+       text-align: center;
+   }
+
+   .whoiam {
+        text-align: center;
+        margin-top: 70px;
+   }
+
+   a {
+    color: black;
+    font-weight: bold;
+   }
+
+   a:hover {
+       color: grey;
+       text-decoration: none;
+   }
+
+   .smlink {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    margin-bottom: 20px;
+    text-align: center;
+   }
+
+   img.footer {
+       width: 2%;
+       margin: 3px;
+   }
+
+   img.footer:hover {
+       opacity: 70%;
+   }
