@@ -23,11 +23,11 @@
    img.footer:hover {
        opacity: 70%;
    }
-
+/* 
    .row {
        margin: 5px;
        text-align: center;
-   }
+   } */
 
    .container {
        margin-top: 50px;
@@ -39,12 +39,14 @@
 
    h1 {
     /* font-weight: bold; */
+    color: #FDFFF5;
     font-size: 40px;
     text-align: center;
     margin: 30px;
 }
 
    h2 {
+    color: #FDFFF5;
     font-size: 20px;
     text-align: center;
 }
@@ -58,3 +60,39 @@
 img.logo {
     width: 35%;
 }
+
+#rectangle_black {
+    background-color: #141413;
+    padding: 70px;
+    width: 750px;
+    height: 400px;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+#logo {
+    margin-top: 40px;
+    margin-left: 50px;
+    margin-bottom: 40px;
+}
+
+img.logo {
+    width: 35%;
+}
+
+.whoiam {
+    text-align: center;
+    margin-top: 70px;
+}
+
+a {
+    color: #FDFFF5;
+    font-weight: bold;
+   }
+
+   a:hover {
+       color: grey;
+       text-decoration: none;
+   }

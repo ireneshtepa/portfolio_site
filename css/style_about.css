@@ -65,7 +65,7 @@
    #paragraph1 {
        margin-left: 55px;
        margin-top: 30px;
-       margin-bottom: 30px;
+       /* margin-bottom: 30px; */
    }
 
    #paragraph2 {
@@ -73,6 +73,12 @@
     margin-top: 30px;
     margin-bottom: 30px;
     text-align: right;
+    }
+
+    #about {
+        margin-left: 55px;
+        margin-top: 30px;
+        text-align: right;   
     }
 
     /* #paragraph3 {
