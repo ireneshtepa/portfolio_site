@@ -33,9 +33,9 @@ body {
        text-align: center;
    } */
 
-   .container {
+   /* .container {
        margin-top: 50px;
-   }
+   } */
 
    /* .col {
        margin: 10px;
@@ -83,16 +83,13 @@ img.logo {
     margin-bottom: 40px;
 }
 
-img.logo {
-    width: 35%;
-}
 
 .whoiam {
     text-align: center;
     margin-top: 70px;
 }
 
-a {
+/* a {
     color: #FDFFF5;
     font-weight: bold;
    }
@@ -100,11 +97,16 @@ a {
    a:hover {
        color: grey;
        text-decoration: none;
+   } */
+
+   #planet-link-img {
+    position: relative;
+ 
+    opacity: 60%;
    }
 
    #planet-link-img {
     width: 255px;
-    opacity: 60%;
    }
 
    #planet-link-img:hover {
@@ -112,9 +114,12 @@ a {
    }
 
    #cities-link-img {
-       margin-left: 20px;
+       /* margin-left: 20px; */
+       position: relative;
+       /* margin-left: 30px; */
     width: 255px;
     opacity: 60%;
+
    }
 
    #cities-link-img:hover {
@@ -129,7 +134,7 @@ a {
     right: 0;
 }
 
-#text-over1 {
+/* #text-over1 {
     color: #FDFFF5;
     font-weight: bold;
     text-align: center;
@@ -157,12 +162,22 @@ a {
     top: 50%;
     left: 75%;
     transform: translate(-50%, -50%);
-}
+} */
 
-#cities-link-img:hover + p#text-over2 {
+/* #cities-link-img:hover ~ p#text-over2 {
     color: blue;
 }
 
 #planet-link-img:hover + p#text-over1 {
     color: white;
+} */
+
+td {
+    text-align: center;
+}
+
+p {
+    margin-top: -10px;
+    color: #FDFFF5;
+    font-weight: bold;
 }
