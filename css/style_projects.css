@@ -53,6 +53,7 @@ body {
     color: #FDFFF5;
     font-size: 20px;
     text-align: center;
+    margin-top: 40px;
 }
 
 #logo {
@@ -100,3 +101,68 @@ a {
        color: grey;
        text-decoration: none;
    }
+
+   #planet-link-img {
+    width: 275px;
+    opacity: 60%;
+   }
+
+   #planet-link-img:hover {
+    opacity: 100%;
+   }
+
+   #cities-link-img {
+       margin-left: 20px;
+    width: 275px;
+    opacity: 60%;
+   }
+
+   #cities-link-img:hover {
+    opacity: 100%;
+   }
+
+   html, body {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+
+#text-over1 {
+    color: #FDFFF5;
+    font-weight: bold;
+    text-align: center;
+    z-index: 100; 
+    position: absolute; 
+    top: 0px;
+    left: 0px;
+    color: whitw;
+    position: absolute;
+    top: 50%;
+    left: 25%;
+    transform: translate(-50%, -50%);
+}
+
+#text-over2 {
+    color: #FDFFF5;
+    font-weight: bold;
+    text-align: center;
+    z-index: 100; 
+    position: absolute; 
+    top: 0px;
+    left: 0px;
+    color: whitw;
+    position: absolute;
+    top: 50%;
+    left: 75%;
+    transform: translate(-50%, -50%);
+}
+
+#cities-link-img:hover + p#text-over2 {
+    color: blue;
+}
+
+#planet-link-img:hover + p#text-over1 {
+    color: white;
+}
