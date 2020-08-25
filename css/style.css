@@ -6,6 +6,14 @@ body {
     background-size: cover;
    }
 
+   @media only screen and (min-hight: 1334px) {
+    body {
+      /* The file size of this background image is 93% smaller
+         to improve page load speed on mobile internet connections */
+      background-image: url("../img/neuron2_mobile.jpg");
+    }
+  }
+
    #rectangle {
        background-color: #FDFFF5;
        padding: 70px;
