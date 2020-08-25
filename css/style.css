@@ -1,6 +1,9 @@
 /* setting background image */
 body {
     background-image: url("../img/neuron2.jpg");
+    background-repeat: no-repeat;
+    /* background-position: center center; */
+    background-size: cover;
    }
 
    #rectangle {
