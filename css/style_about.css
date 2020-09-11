@@ -117,13 +117,13 @@ body {
     list-style: none;
     }
     
-    li.icon_1
+    /* li.icon_1
     {
     padding-left: 10px;
     background-image: url("../img/icon_1.png");
     background-repeat: no-repeat;
     background-position: 0 .5em;
-    }
+    } */
 
     /* ul {
         margin: 0 0 0 32px;
