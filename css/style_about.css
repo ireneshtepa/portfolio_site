@@ -109,3 +109,76 @@ body {
         left: 0;
         right: 0;
     }
+
+    .list
+    {
+    margin-left: 0;
+    padding-left: 0;
+    list-style: none;
+    }
+    
+    li.icon_1
+    {
+    padding-left: 10px;
+    background-image: url("../img/icon_1.png");
+    background-repeat: no-repeat;
+    background-position: 0 .5em;
+    }
+
+    /* ul {
+        margin: 0 0 0 32px;
+        line-height: 1.5
+    }
+    .icon_1 {
+        list-style-image: url('../img/icon_1.png');
+    }
+    .icon_2 {
+        list-style-image: url('../img/icon_2.png');
+    }
+    .icon_3 {
+        list-style-image: url('../img/icon_3.png');
+    }
+    .icon_4 {
+        list-style-image: url('../img/icon_4.png');
+    }
+    .icon_5 {
+        list-style-image: url('../img/icon_5.png');
+    }
+    .icon_6 {
+        list-style-image: url('../img/icon_6.png');
+    } */
+
+    /* .list{
+        padding: 0;
+        margin: 0;
+        list-style-type: none;
+        list-style-image: url('..img/icon_1.png');
+      } */
+
+    /* li.icon_1 {
+        background: url('..img/icon_1.png') no-repeat left top;
+        height: 34px;
+        padding-top: 7px;
+        padding-left: 44px;
+        list-style-image: url('..img/icon_1.png')
+    } */
+
+    li.icon_2 {
+        list-style-image: url('..img/icon_2.png')
+    }
+
+    li.icon_3 {
+        list-style-image: url('..img/icon_3.png')
+    }
+
+    li.icon_4 {
+        list-style-image: url('..img/icon_4.png')
+    }
+
+    li.icon_5 {
+        list-style-image: url('..img/icon_5.png')
+    }
+
+    li.icon_6 {
+        list-style-image: url('..img/icon_6.png')
+    }
