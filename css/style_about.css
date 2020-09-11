@@ -117,6 +117,33 @@ body {
     list-style: none;
     }
     
+    .icon_style {
+        width: 140px;
+    }
+
+    table {
+        margin-left: 25px;
+    }
+
+    td.td_img {
+        text-align: center;
+    }
+
+    td {
+        margin: 10px;
+    }
+
+    p {
+        font-size: 20px;
+    }
+
+    p.img_text {
+        font-size: 15px;
+        margin-right: 10px;
+        margin-left: 10px;
+        margin-top: 10px;
+    }
+
     /* li.icon_1
     {
     padding-left: 10px;
