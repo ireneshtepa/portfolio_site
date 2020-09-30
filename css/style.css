@@ -3,16 +3,8 @@ body {
     background-image: url("../img/neuron2.jpg");
     background-repeat: no-repeat;
     /* background-position: center center; */
-    background-size: cover;
+    background-size: auto;
    }
-
-   @media only screen and (max-widtht: 746px) {
-    body {
-      /* The file size of this background image is 93% smaller
-         to improve page load speed on mobile internet connections */
-      background-image: url("../img/neuron2_mobile.jpg");
-    }
-  }
 
    #rectangle {
        background-color: #FDFFF5;

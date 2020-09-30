@@ -215,4 +215,48 @@ body {
         max-width: 340px;
         margin-left: 50px;
         margin-top: 30px;
+        
+    }
+
+    @media screen and (max-width: 1200px){
+        .portolio_pic {
+            max-width: 250px;
+        }
+    }
+
+    @media screen and (max-width: 900px){
+        .portolio_pic {
+            max-width: 200px;
+        }
+    }
+
+    @media screen and (max-width: 720px){
+        .portolio_pic {
+            margin-left: 150px;
+        }
+
+        #paragraph1 {
+            margin-top: 330px;
+        }
+
+
+    }
+
+    @media screen and (min-width: 1600px){
+        .portolio_pic {
+            max-width: 480px;
+        }
+
+        p {
+            font-size: 18px;
+        }
+
+        p.img_text {
+            font-size: 18px; 
+        }
+
+        .icon_style {
+            max-width: 60px;
+            margin-right: 10px;
+        }
     }
