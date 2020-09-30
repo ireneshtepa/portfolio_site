@@ -21,7 +21,7 @@ body {
 
    h2 {
        font-size: 20px;
-       text-align: center;
+       text-align: left;
    }
 
    h3 {
@@ -67,7 +67,7 @@ body {
    }
 
    #paragraph1 {
-       margin-left: 55px;
+       /* margin-left: 55px; */
        margin-top: 30px;
        /* margin-bottom: 30px; */
    }
@@ -118,30 +118,31 @@ body {
     }
     
     .icon_style {
-        width: 120px;
+        max-width: 40px;
+        margin-top: 10px;
     }
 
-    table {
+    /* table {
         margin-left: 25px;
-    }
+    } */
 
     td.td_img {
-        text-align: center;
+        text-align: left;
     }
 
-    td {
+    /* td {
         margin: 10px;
-    }
+    } */
 
     p {
         font-size: 15px;
     }
 
     p.img_text {
-        font-size: 12px;
+        font-size: 15px;
         margin-right: 10px;
         margin-left: 10px;
-        margin-top: 10px;
+        margin-top: 15px;
     }
 
     /* li.icon_1
@@ -190,7 +191,7 @@ body {
         list-style-image: url('..img/icon_1.png')
     } */
 
-    li.icon_2 {
+    /* li.icon_2 {
         list-style-image: url('..img/icon_2.png')
     }
 
@@ -208,4 +209,10 @@ body {
 
     li.icon_6 {
         list-style-image: url('..img/icon_6.png')
+    } */
+
+    .portolio_pic {
+        max-width: 340px;
+        margin-left: 50px;
+        margin-top: 30px;
     }
